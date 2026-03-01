@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Salah Abdelhamid | Data Analyst</title>
+    <!-- Modern Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dir-ltr">
+    <!-- Loader (optional but adds a premium touch) -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">M.Salah <span class="accent-text">Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-ar="عني">About</a></li>
+                <li><a href="#experience" data-en="Experience" data-ar="الخبرات">Experience</a></li>
+                <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a></li>
+            </ul>
+
+            <div class="controls-container">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="control-btn" aria-label="Toggle ThemeMode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="control-btn lang-btn">AR</button>
+
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="greeting" data-en="Hello, I'm" data-ar="أهلاً بك، أنا">Hello, I'm</h2>
+            <h1 class="name" data-en="Mohamed Salah<br>Abdelhamid" data-ar="محمد صلاح<br>عبد الحميد">Mohamed
+                Salah<br>Abdelhamid</h1>
+            <h3 class="title" data-en="Data Analyst" data-ar="محلل بيانات">Data Analyst</h3>
+            <p class="hero-desc"
+                data-en="Results-driven Data Analyst with 3+ years of cross-industry experience delivering end-to-end business intelligence solutions, ETL pipelines, and KPI optimization frameworks that drive measurable executive decision-making."
+                data-ar="محلل بيانات يركز على تحقيق النتائج بخبرة تزيد عن 3 سنوات في قطاعات متعددة. أقدم حلول ذكاء أعمال متكاملة، ومسارات بيانات (ETL)، وأطر عمل لتحسين مؤشرات الأداء الرئيسية (KPIs) التي تدعم اتخاذ القرارات الإدارية القابلة للقياس.">
+                Results-driven Data Analyst with 3+ years of cross-industry experience delivering end-to-end business
+                intelligence solutions, ETL pipelines, and KPI optimization frameworks that drive measurable executive
+                decision-making.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-project-diagram"></i> <span
+                        data-en="View My Projects" data-ar="تصفح أعمالي">View My Projects</span></a>
+                <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> <span data-en="Contact Me"
+                        data-ar="تواصل معي">Contact Me</span></a>
+            </div>
+
+            <div class="hero-cv-btn">
+                <a href="Mohamed_Salah_Resume_v5%20.pdf" target="_blank" class="btn btn-cv"><i
+                        class="fas fa-file-pdf"></i> <span data-en="View / Download CV"
+                        data-ar="عرض / تحميل السيرة الذاتية">View / Download CV</span></a>
+            </div>
+
+            <div class="social-links-hero">
+                <a href="https://linkedin.com/in/mohamedsalah-abdelhamid" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:mohamedsalahacc5050@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="1767434721347.png" alt="Mohamed Salah" class="profile-img">
+            </div>
+            <!-- Badges -->
+            <div class="floating-badge badge-1"><i class="fab fa-python"></i> Python</div>
+            <div class="floating-badge badge-2"><i class="fas fa-database"></i> SQL</div>
+            <div class="floating-badge badge-3"><i class="fas fa-chart-bar"></i> Power BI</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2><span data-en="Professional" data-ar="الملخص">Professional</span> <span class="highlight"
+                        data-en="Summary" data-ar="المهني">Summary</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en=" Data Analyst proficient in Power BI, Tableau, Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, and more. Strong accounting and financial reporting background bridges raw data with business intelligence strategy, enabling faster, more confident decisions."
+                        data-ar="محلل بيانات محترف في استخدام Power BI، Tableau، Python (Pandas, NumPy, Matplotlib, Seaborn)، SQL وغيرها. لدي خلفية قوية في المحاسبة والتقارير المالية تربط بين البيانات الخام واستراتيجية ذكاء الأعمال، مما يتيح اتخاذ قرارات أسرع وأكثر ثقة.">
+                        Data Analyst proficient in Power BI, Tableau, Python (Pandas,
+                        NumPy, Matplotlib, Seaborn), SQL, and more. Strong accounting and financial reporting background
+                        bridges raw data with business intelligence strategy, enabling faster, more confident decisions.
+                    </p>
+                    <p data-en="Proven track record of reducing reporting preparation time by 40%, saving 10+ hours of manual processing per week, and improving forecasting accuracy by 20%. Experienced in leading analytical teams, collaborating with cross-functional stakeholders, and translating complex datasets into strategic recommendations."
+                        data-ar="سجل حافل في تقليل وقت إعداد التقارير بنسبة 40%، وتوفير أكثر من 10 ساعات عمل أسبوعياً من المعالجة اليدوية، وتحسين دقة التنبؤ بنسبة 20%. خبرة في قيادة الفرق التحليلية، والتعاون الفعال مع مختلف الأقسام، وترجمة البيانات المعقدة إلى توصيات استراتيجية.">
+                        Proven track record of reducing reporting preparation time by 40%, saving 10+ hours of manual
+                        processing per week, and improving forecasting accuracy by 20%. Experienced in leading
+                        analytical teams, collaborating with cross-functional stakeholders, and translating complex
+                        datasets into strategic recommendations.</p>
+
+                    <div class="contact-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-en="Location" data-ar="الموقع">Location</h4>
+                                <span><span data-en="Cairo, Egypt" data-ar="القاهرة، مصر">Cairo, Egypt</span></span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4 data-en="Education" data-ar="المؤهل">Education</h4>
+                                <span><span data-en="B.Com Accounting" data-ar="بكالوريوس تجارة - محاسبة">B.Com
+                                        Accounting</span></span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <h4 data-en="Languages" data-ar="اللغات">Languages</h4>
+                                <span><span data-en="Arabic, English" data-ar="العربية، الإنجليزية">Arabic,
+                                        English</span></span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4 data-en="Current Role" data-ar="العمل الحالي">Current Role</h4>
+                                <span><span data-en="Data Analytics & AI Specialist"
+                                        data-ar="أخصائي ذكاء اصطناعي وتحليل بيانات">Data Analytics & AI
+                                        Specialist</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section class="experience section-padding bg-alt" id="experience">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2><span data-en="Professional" data-ar="الخبرات">Professional</span> <span class="highlight"
+                        data-en="Experience" data-ar="المهنية">Experience</span></h2>
+                <div class="header-line center"></div>
+                <p data-en="My career journey and professional milestones" data-ar="رحلتي المهنية وإنجازاتي العملية">My
+                    career journey and professional milestones</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Dec 2025 - Present" data-ar="ديسمبر 2025 - الآن">Dec 2025
+                            - Present</span></div>
+                    <h4 data-en="Data Analytics & AI Specialist" data-ar="أخصائي تحليل بيانات وذكاء اصطناعي">Data
+                        Analytics & AI Specialist</h4>
+                    <h5><span data-en="Digilians | Cairo, Egypt" data-ar="Digilians | القاهرة، مصر">Digilians | Cairo,
+                            Egypt</span></h5>
+                    <ul>
+                        <li data-en="Engineered ETL pipelines and automated data workflows in Python, cutting manual processing by 10+ hours/week."
+                            data-ar="هندسة مسارات البيانات (ETL) وأتمتة العمليات باستخدام بايثون، مما وفر أكثر من 10 ساعات عمل أسبوعياً.">
+                            Engineered ETL pipelines and automated data workflows in Python, cutting manual processing
+                            by 10+ hours/week.</li>
+                        <li data-en="Designed Power BI, Tableau, and Excel dashboards, reducing reporting preparation time by 40%."
+                            data-ar="تصميم لوحات تحكم وأتمتة تقارير عبر Power BI وتقليل وقت التجهيز بنسبة 40%.">Designed
+                            Power BI, Tableau, and Excel dashboards, reducing reporting preparation time by 40%.</li>
+                        <li data-en="Deployed agentic AI frameworks to automate BI workflows."
+                            data-ar="استخدام تقنيات الذكاء الاصطناعي (Agentic AI) لأتمتة سير العمل.">Deployed agentic AI
+                            frameworks to automate BI workflows.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Nov 2025 - Present" data-ar="نوفمبر 2025 - الآن">Nov 2025
+                            - Present</span></div>
+                    <h4 data-en="Financial Data Analyst (Freelance)" data-ar="محلل بيانات مالية (عمل حر)">Financial Data
+                        Analyst (Freelance)</h4>
+                    <h5><span data-en="Gzoor | Cairo, Egypt" data-ar="جذور | القاهرة، مصر">Gzoor | Cairo, Egypt</span>
+                    </h5>
+                    <ul>
+                        <li data-en="Architected an IFRS-compliant accounting and data reporting system, improving financial data accuracy by 30%."
+                            data-ar="تصميم نظام تقارير محاسبية ومالية رفع دقة البيانات بنسبة 30%.">Architected an
+                            IFRS-compliant accounting and data reporting system, improving financial data accuracy by
+                            30%.</li>
+                        <li data-en="Built structured financial dashboards and KPI reporting frameworks reducing monthly report generation time by 35%."
+                            data-ar="إنشاء لوحات تحكم مالية ومؤشرات أداء لتسريع استخراج التقارير بنسبة 35%.">Built
+                            structured financial dashboards and KPI reporting frameworks reducing monthly report
+                            generation time by 35%.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Feb 2025 - Oct 2025"
+                            data-ar="فبراير 2025 - أكتوبر 2025">Feb 2025 - Oct 2025</span></div>
+                    <h4 data-en="General Accountant & Reporting Analyst" data-ar="محاسب عام ومحلل تقارير">General
+                        Accountant & Reporting Analyst</h4>
+                    <h5><span data-en="Wamd Academy | Giza, Egypt" data-ar="أكاديمية ومض | الجيزة، مصر">Wamd Academy |
+                            Giza, Egypt</span></h5>
+                    <ul>
+                        <li data-en="Designed a custom Excel-based reporting system reducing workflow processing time by 30%."
+                            data-ar="تصميم نظام تقارير محاسبية باستخدام إكسيل وفر 30% من وقت العمل.">Designed a custom
+                            Excel-based reporting system reducing workflow processing time by 30%.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Dec 2022 - Dec 2023"
+                            data-ar="ديسمبر 2022 - ديسمبر 2023">Dec 2022 - Dec 2023</span></div>
+                    <h4 data-en="General Accountant" data-ar="محاسب عام">General Accountant</h4>
+                    <h5><span data-en="Agape Clothing Office | Cairo, Egypt"
+                            data-ar="مكتب أغابي للملابس | القاهرة، مصر">Agape Clothing Office | Cairo, Egypt</span>
+                    </h5>
+                    <ul>
+                        <li data-en="Managed full-cycle financial operations: ledger maintenance, payroll processing, cash-flow reconciliations, and inventory coordination with warehouse teams."
+                            data-ar="إدارة العمليات المالية بالكامل: صيانة دفتر الأستاذ العام، معالجة الرواتب، تسويات التدفق النقدي، وتنسيق المخزون مع فرق المستودعات.">
+                            Managed full-cycle financial operations: ledger maintenance, payroll processing, cash-flow
+                            reconciliations, and inventory coordination with warehouse teams.</li>
+                        <li data-en="Maintained zero payroll errors throughout tenure, ensuring compliant bookkeeping and timely salary disbursement via accurate daily and monthly journals."
+                            data-ar="الحفاظ على نسبة خطأ صفر% في الرواتب طوال فترة العمل، وضمان الامتثال الدفتري وصرف الرواتب في الوقت المحدد عبر قيود يومية وشهرية دقيقة.">
+                            Maintained zero payroll errors throughout tenure, ensuring compliant bookkeeping and timely
+                            salary disbursement via accurate daily and monthly journals.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Jul 2019 - Mar 2021" data-ar="يوليو 2019 - مارس 2021">Jul
+                            2019 - Mar 2021</span></div>
+                    <h4 data-en="Document Control Specialist" data-ar="أخصائي مراقبة الوثائق">Document Control
+                        Specialist</h4>
+                    <h5><span data-en="Iron Mountain | Giza, Egypt" data-ar="آيرون ماونتن | الجيزة، مصر">Iron Mountain |
+                            Giza, Egypt</span>
+                    </h5>
+                    <ul>
+                        <li data-en="Managed the complete document lifecycle for multinational clients: preparation, scanning, quality control, Excel-based metadata tagging, and secure server upload for remote client access."
+                            data-ar="إدارة دورة حياة الوثائق الكاملة للعملاء متعددي الجنسيات: التحضير، المسح الضوئي، مراقبة الجودة، وإضافة البيانات الوصفية (Metadata) باستخدام الإكسيل والرفع الآمن على الخوادم.">
+                            Managed the complete document lifecycle for multinational clients: preparation, scanning,
+                            quality control, Excel-based metadata tagging, and secure server upload for remote client
+                            access.</li>
+                        <li data-en="Maintained a 100% audit-pass rate with zero reported data incidents across all client accounts through strict compliance with confidentiality and data security protocols."
+                            data-ar="تحقيق نسبة نجاح 100% في التدقيق مع انعدام حوادث البيانات المبلغ عنها عبر جميع حسابات العملاء من خلال الالتزام الصارم ببروتوكولات سرية وأمن البيانات.">
+                            accounts through strict compliance with confidentiality and data security protocols.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainings & Courses Section -->
+    <section class="experience section-padding bg-alt" id="trainings" style="background: var(--bg-primary);">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2><span data-en="Trainings &" data-ar="الدورات و">Trainings &</span> <span class="highlight"
+                        data-en="Courses" data-ar="الشهادات">Courses</span></h2>
+                <div class="header-line center"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Dec 2025 - Present" data-ar="ديسمبر 2025 - الآن">Dec 2025
+                            - Present</span></div>
+                    <h4 data-en="Specialized Diploma — Applied AI & Data Analytics"
+                        data-ar="دبلوم متخصص — الذكاء الاصطناعي التطبيقي وتحليل البيانات">Specialized Diploma — Applied
+                        AI & Data Analytics</h4>
+                    <h5><span data-en="Digilians | Cairo, Egypt" data-ar="Digilians | القاهرة، مصر">Digilians | Cairo,
+                            Egypt</span></h5>
+                    <ul>
+                        <li data-en="Tracks: Applied Statistics & Data Analysis, Data Mining & Visualization, Microsoft Power BI, Advanced Excel, Introduction to Machine Learning & AI, Agentic AI."
+                            data-ar="المسارات: الإحصاء التطبيقي وتحليل البيانات، التنقيب عن البيانات مرئياً، Power BI، إكسيل المتقدم، مقدمة في تعلم الآلة والذكاء الاصطناعي.">
+                            Tracks: Applied Statistics & Data Analysis, Data Mining & Visualization, Microsoft Power BI,
+                            Advanced Excel, Introduction to Machine Learning & AI, Agentic AI.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"><span data-en="Aug 2020 - Sep 2020"
+                            data-ar="أغسطس 2020 - سبتمبر 2020">Aug 2020 - Sep 2020</span></div>
+                    <h4 data-en="Online Training Program — Banking Operations & Financial Practices"
+                        data-ar="برنامج تدريبي — العمليات المصرفية والممارسات المالية">Online Training Program — Banking
+                        Operations & Financial Practices</h4>
+                    <h5><span data-en="Banque Misr" data-ar="بنك مصر (Banque Misr)">Banque Misr</span></h5>
+                    <ul>
+                        <li data-en="Focused on banking operations, compliance, risk management fundamentals, financial reporting, and digital banking systems."
+                            data-ar="التركيز على العمليات المصرفية، الامتثال، أساسيات إدارة المخاطر، التقارير المالية والأنظمة المصرفية الرقمية.">
+                            Focused on banking operations, compliance, risk management fundamentals, financial
+                            reporting, and digital banking systems.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section-padding bg-alt" id="certifications">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2><span data-en="My" data-ar="شهاداتي">My</span> <span class="highlight" data-en="Certifications"
+                        data-ar="الاحترافية">Certifications</span></h2>
+                <div class="header-line center"></div>
+                <p data-en="Verified credentials from world-class institutions"
+                    data-ar="شهادات موثّقة من أبرز المؤسسات العالمية">Verified credentials from world-class institutions
+                </p>
+            </div>
+
+            <div class="certs-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card">
+                    <div class="cert-issuer cert-google">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                    </div>
+                    <div class="cert-body">
+                        <h4 data-en="Ask Questions to Make Data-Driven Decisions"
+                            data-ar="طرح أسئلة لاتخاذ قرارات مبنية على البيانات">Ask Questions to Make Data-Driven
+                            Decisions</h4>
+                        <p class="cert-platform"><i class="fas fa-certificate"></i> Coursera &nbsp;|&nbsp; <span
+                                data-en="Jan 26, 2026" data-ar="26 يناير 2026">Jan 26, 2026</span></p>
+                    </div>
+                    <a href="https://coursera.org/verify/41LFT4KZN1F3" target="_blank" class="cert-verify-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-en="Verify" data-ar="تحقق">Verify</span>
+                    </a>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card">
+                    <div class="cert-issuer cert-google">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                    </div>
+                    <div class="cert-body">
+                        <h4 data-en="Foundations: Data, Data, Everywhere" data-ar="الأسس: بيانات في كل مكان">
+                            Foundations: Data, Data, Everywhere</h4>
+                        <p class="cert-platform"><i class="fas fa-certificate"></i> Coursera &nbsp;|&nbsp; <span
+                                data-en="Jan 15, 2026" data-ar="15 يناير 2026">Jan 15, 2026</span></p>
+                    </div>
+                    <a href="https://coursera.org/verify/GYH8VPX4EQKC" target="_blank" class="cert-verify-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-en="Verify" data-ar="تحقق">Verify</span>
+                    </a>
+                </div>
+
+                <!-- Cert 3: Prepare Data for Exploration -->
+                <div class="cert-card">
+                    <div class="cert-issuer cert-google">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                    </div>
+                    <div class="cert-body">
+                        <h4 data-en="Prepare Data for Exploration" data-ar="إعداد البيانات للاستكشاف">
+                            Prepare Data for Exploration</h4>
+                        <p class="cert-platform"><i class="fas fa-certificate"></i> Coursera &nbsp;|&nbsp; <span
+                                data-en="Feb 7, 2026" data-ar="7 فبراير 2026">Feb 7, 2026</span></p>
+                    </div>
+                    <a href="https://coursera.org/verify/LLCG68NGMPZ1" target="_blank" class="cert-verify-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-en="Verify" data-ar="تحقق">Verify</span>
+                    </a>
+                </div>
+
+                <!-- Cert 4: Process Data from Dirty to Clean -->
+                <div class="cert-card">
+                    <div class="cert-issuer cert-google">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                    </div>
+                    <div class="cert-body">
+                        <h4 data-en="Process Data from Dirty to Clean" data-ar="معالجة البيانات من فوضوية إلى نظيفة">
+                            Process Data from Dirty to Clean</h4>
+                        <p class="cert-platform"><i class="fas fa-certificate"></i> Coursera &nbsp;|&nbsp; <span
+                                data-en="Feb 22, 2026" data-ar="22 فبراير 2026">Feb 22, 2026</span></p>
+                    </div>
+                    <a href="https://coursera.org/verify/ZN10BMWGXNAF" target="_blank" class="cert-verify-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-en="Verify" data-ar="تحقق">Verify</span>
+                    </a>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card">
+                    <div class="cert-issuer cert-ibm">
+                        <i class="fab fa-ibm"></i>
+                        <span>IBM</span>
+                    </div>
+                    <div class="cert-body">
+                        <h4 data-en="Delivering Quality Work with Agility" data-ar="تقديم عمل عالي الجودة بمرونة">
+                            Delivering Quality Work with Agility</h4>
+                        <p class="cert-platform"><i class="fas fa-certificate"></i> Coursera &nbsp;|&nbsp; <span
+                                data-en="Feb 23, 2026" data-ar="23 فبراير 2026">Feb 23, 2026</span></p>
+                    </div>
+                    <a href="https://coursera.org/verify/WS0UXPQVSG0Y" target="_blank" class="cert-verify-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-en="Verify" data-ar="تحقق">Verify</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2><span data-en="Technical" data-ar="المهارات">Technical</span> <span class="highlight"
+                        data-en="Skills" data-ar="التقنية">Skills</span></h2>
+                <div class="header-line center"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3 data-en="BI & Visualization" data-ar="أنظمة ذكاء الأعمال">BI & Visualization</h3>
+                    <div class="skill-tags">
+                        <span>Power BI (Advanced)</span>
+                        <span>Tableau</span>
+                        <span>Microsoft Excel</span>
+                        <span>M Language</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3 data-en="Data Engineering" data-ar="هندسة البيانات">Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span>ETL Pipelines</span>
+                        <span>Data Warehousing</span>
+                        <span>Data Cleaning</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3 data-en="Programming" data-ar="البرمجة">Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python (Pandas, NumPy, Matplotlib)</span>
+                        <span>R</span>
+                        <span>SQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <h3 data-en="Analytics & AI" data-ar="الذكاء الاصطناعي والتحليلات">Analytics & AI</h3>
+                    <div class="skill-tags">
+                        <span>Predictive Analytics</span>
+                        <span>Machine Learning</span>
+                        <span>Agentic AI</span>
+                        <span>IBM SPSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding bg-alt" id="projects">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2><span data-en="Featured" data-ar="أبرز">Featured</span> <span class="highlight" data-en="Projects"
+                        data-ar="المشاريع">Projects</span></h2>
+                <div class="header-line center"></div>
+                <p data-en="Explore my recent work showcasing data visualization, EDA, and statistical analysis"
+                    data-ar="اكتشف تفاصيل أعمالي في مجال تحليلات وتصوير البيانات">Explore my recent work showcasing data
+                    visualization, EDA, and statistical analysis</p>
+            </div>
+
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects injected by JS -->
+            </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <video id="modalVideo" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 id="modalTitle">Project Title</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="section-container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h2><span data-en="Let's Work" data-ar="لنعمل">Let's Work</span> <span class="highlight"
+                            data-en="Together" data-ar="معاً">Together</span></h2>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4 data-en="Email" data-ar="البريد الإلكتروني">Email</h4>
+                                <a href="mailto:mohamedsalahacc5050@gmail.com">mohamedsalahacc5050@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4 data-en="Phone" data-ar="رقم الجوال مباشر">Phone</h4>
+                                <a href="tel:+201022071692" style="unicode-bidi: plaintext;">+20 102 207 1692</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box" style="color: #25D366; background: rgba(37, 211, 102, 0.1);"><i
+                                    class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <h4 data-en="WhatsApp" data-ar="واتساب">WhatsApp</h4>
+                                <a href="https://wa.me/201148295790" target="_blank"
+                                    style="unicode-bidi: plaintext;">+20 114 829 5790</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/mohamedsalah-abdelhamid"
+                                    target="_blank">mohamedsalah-abdelhamid</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-visual">
+                    <div class="pulse-ring"></div>
+                    <div
+                        style="display: flex; gap: 15px; flex-direction: column; width: 100%; max-width: 300px; z-index: 2;">
+                        <a href="mailto:mohamedsalahacc5050@gmail.com" class="big-contact-btn"
+                            style="justify-content: center;">
+                            <span data-en="Email Me" data-ar="راسلني إيميل">Email Me</span> <i
+                                class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/201148295790" target="_blank" class="big-contact-btn"
+                            style="background: #25D366; justify-content: center;">
+                            <span data-en="WhatsApp Me" data-ar="راسلني واتساب">WhatsApp Me</span> <i
+                                class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">M.Salah <span>Portfolio</span></div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/mohamedsalah-abdelhamid" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:mohamedsalahacc5050@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="currentYear"></span> Mohamed Salah Abdelhamid. <span
+                    data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
